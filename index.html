@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/style.css" type="style.css" rel="stylesheet"/>
+<link href="css/reset.css" type="style.css" rel="stylesheet"/>
+
+
+
+
+  <title>Proyecto Inicio</title>
+  
+
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+
+ 
+<meta name="viewport" content="width=960">    
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+<link rel='stylesheet' id='style-css'  href='diapo.css' type='text/css' media='all'> 
+<script type='text/javascript' src='scripts/jquery.min.js'></script>
+<!--[if !IE]><!--><script type='text/javascript' src='scripts/jquery.mobile-1.0rc2.customized.min.js'></script><!--<![endif]-->
+<script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+<script type='text/javascript' src='scripts/jquery.hoverIntent.minified.js'></script> 
+<script type='text/javascript' src='scripts/diapo.js'></script> 
+
+<script>
+$(function(){
+	$('.pix_diapo').diapo();
+});
+
+</script>
+
+<style>
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+section {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.button {
+	background: #014464;
+	background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C)); 
+	border: 1px solid #368DBE;
+	border-top: 1px solid #c3d6df;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+	color: white;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+	text-transform: uppercase;
+	width: auto;
+}
+.button2 {
+	background: #d9ae00;
+	background: -moz-linear-gradient(top, #b28b06, #9c7705 50%, #9c7705 51%, #5c4100);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b28b06), color-stop(.5, #9c7705), color-stop(.5, #9c7705), to(#5c4100)); 
+	border: 1px solid #c7a60c;
+	border-top: 1px solid #e5d51f;
+}
+.button3 {
+	background: #ffd838;
+	background: -moz-linear-gradient(top, #edbf21, #c89b0f 50%, #9c7705 51%, #906706);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #edbf21), color-stop(.5, #c89b0f), color-stop(.5, #c89b0f), to(#906706)); 
+	border: 1px solid #c7a60c;
+	border-top: 1px solid #e5d51f;
+}
+.price_table {
+    float: right;
+	font-size: 12px;
+    margin: 10px auto 0;
+    padding: 20px 0;
+	position: relative;
+	width: 570px;
+}
+.price_table .price_column.highlighted {
+	background: #ffd838;
+    margin: -5px!important;
+	padding: 10px;
+    z-index: 2;
+}
+.price_table .price_column {
+	display: block;
+	margin: 5px;
+    float: left;
+    position: absolute;
+	width: 180px;
+    z-index: 1;
+}
+.price_table .price_column > div {
+	background: #eeeeee;
+}
+.price_table .price_column > div > div {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_column > div > p {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_column > div > ul {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_title {
+	background-color: #333333;
+    border-top: 0!important;
+    color: #ffffff;
+    font-size: 14px;
+}
+.price_table .highlighted .price_title {
+    font-size: 16px;
+}
+.price_table .price_price {
+    font-size: 36px;
+    line-height: 40px;
+}
+.price_table .highlighted  .price_price {
+    font-size: 40px;
+    line-height: 44px;
+}
+.price_table .price_explanation {
+	font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+.price_table .cusButton {
+	background-color: #333333;
+	display: block;
+    text-align: center;
+}
+.price_table li {
+	padding: 5px 0;
+}
+.price_table div.pix_check {
+	background: url(images/demo/list-check-green.png) no-repeat 15px center;
+    padding-left: 38px!important;
+}
+.price_table div.pix_error {
+	background: url(images/demo/list-error.png) no-repeat 15px center;
+    padding-left: 38px!important;
+}
+</style>
+ 
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="nav"><!--nav=---------------------------------------------------------------------------------------------->
+<div id="logo"> 
+
+</div>
+<div id="lista">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="indexlocalidades.html">LOCALIDADES</a></li>
+<li><a href="indexaliados.html">ALIADOS</a></li>
+<li><a href="indexcontacto.html">CONTACTO</a></li>
+</ul>
+</div>
+</div> <!--nav=--><!--nav=------------------------------------------------------------------------------------------>
+
+<div id="slider"><!--id=slider....................................................................................................................................-->
+
+  <section> 
+    
+    	<div style="overflow:hidden; width:960px; margin: 100px auto; padding:0 20px;"> 
+                <div class="pix_diapo">            
+                    
+                  
+                    
+                    <div data-thumb="slide/01.jpg">
+                        <img src="slide/01.jpg">
+                    </div>
+					<div data-thumb="slide/02.jpg">
+                        <img src="slide/02.jpg">
+                    </div>
+					<div data-thumb="slide/03.jpg">
+                        <img src="slide/03.jpg">
+                    </div>
+					<div data-thumb="slide/04.jpg">
+                        <img src="slide/04.jpg">
+                    </div>
+					<div data-thumb="slide/05.jpg">
+                        <img src="slide/05.jpg">
+                    </div>
+					<div data-thumb="slide/06.jpg">
+                        <img src="slide/06.jpg">
+                    </div>
+					<div data-thumb="slide/07.jpg">
+                        <img src="slide/07.jpg">
+                    </div>
+					<div data-thumb="slide/08.jpg">
+                        <img src="slide/08.jpg">
+                    </div>
+					<div data-thumb="slide/09.jpg">
+                        <img src="slide/09.jpg">
+                    </div>
+					<div data-thumb="slide/10.jpg">
+                        <img src="slide/10.jpg">
+                    </div>
+					<div data-thumb="slide/11.jpg">
+                        <img src="slide/11.jpg">
+                    </div>
+					
+                    
+               </div><!-- #pix_diapo -->
+                
+        </div>
+    
+    
+    </section> 
+
+
+
+
+</div> <!--id=slider....................................................................................................................................-->
+
+<div id="contenido">
+<div id="principal">
+
+<h4 id="titulo"> Irasshaimase !!! </h4>
+<h4 id="titulo"> Welcome !!! </h4>
+
+
+
+
+
+
+
+</div> <!--id=principal.....................................-->
+<div id="fix"> 
+&nbsp;
+</div>
+
+
+<div id="secundario">
+
+<div class="circulo">
+<h4> Historia</h4>
+<img src="img/historia.jpg" alt="fotox" width="90%"/>
+<a href="http://es.wikipedia.org/wiki/Historia_de_Jap%C3%B3n" > ver más...</a>
+</div> <!--id=circulo.....................................-->
+<div class="circulo">
+<h4> Comida</h4>
+<img src="img/comida.jpg" alt="fotox" width="90%"/>
+<a href="http://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Jap%C3%B3n" > ver más...</a>
+</div> <!--id=circulo.....................................-->
+<div class="circulo">
+<h4> Arte</h4>
+<img src="img/arte.jpg" alt="fotox" width="90%"/>
+<a href="http://es.wikipedia.org/wiki/Arte_de_Jap%C3%B3n" > ver más...</a>
+</div> <!--id=circulo.....................................-->
+<div class="circulo">
+<h4> Geografia</h4>
+<img src="img/geografia.jpg" alt="fotox" width="90%"/>
+<a href="http://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Jap%C3%B3n" > ver más...</a>
+</div> <!--id=circulo.....................................-->
+</div> <!--id=secundario.....................................-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!--id=contenido.....................................-->
+
+<div id="footer">
+<div id="a">
+<ul> 
+	<li> <a href="https://www.linkedin.com"><img src="img/06.png" alt="in" width="50px" height="50px"/>  </a> </li>
+	<li> <a href="https://pinterest.com/"><img src="img/05.png" alt="Pinterest" width="50px" height="50px"/></a> </li>
+	<li> <a href="https://plus.google.com"><img src="img/04.png" alt="g+" width="50px" height="50px"/></a> </li>
+	<li> <a href="http://www.youtube.com/"><img src="img/03.png" alt="you" width="50px" height="50px"/></a> </li>
+	<li> <a href="https://twitter.com/"><img src="img/02.png" alt="Twitter" width="50px" height="50px"/></a> </li>
+	<li> <a href="https://www.facebook.com/"><img src="img/01.png" alt="facebook" width="50px" height="50px"/></a> </li>
+</ul>
+</div>
+
+</div> <!--id=footer"..............................................................................................-->
+
+
+<div id="b">
+<p id="c"> Copyright</p>
+<p id="by"> Edited by  Alicia Arbelo - Joako Segovia 2 BI</p>       
+</div>
+</div> <!--id=wrapper-->
+
+</body>
+</html>

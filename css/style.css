@@ -1,0 +1,119 @@
+/* CSS Document             filter:alpha(opacity=25);-moz-opacity:.25;opacity:.25;background:url(../img/back.jpg)               }        */
+body {background: url(../img/back.jpg)}
+#wrapper{width:auto; height:auto; margin:0 auto;}
+
+#nav{width:1024; height:150px; margin:0 auto; background:#FFFF66}
+
+#logo{width:40%;height:100%; float:left; background-image:url(../img/logomio.png) ; background-position:center}
+
+#logo img{margin:10px; padding-left:80px; background-image:url(../img/logomio.png) }
+
+#lista{width:60%;height:100%; float:left; background:#FFF}
+#lista ul{list-style:none; padding-bottom:20px; padding-top:50px;}
+#lista ul li{float:left;  padding-left:20px;}
+#lista ul li a{display:block; font-family:Arial, Helvetica, sans-serif; font-size:24px;color:#000000; line-height:38px; text-decoration:none; height:45px; padding-left:10px; padding-right:20px; padding-bottom:10px; padding-top:15px; border-radius:10%;}
+#lista ul li a:hover{background:#FF0000; color:#FFFFFF}
+#lista ul li:last-child {border-right:none;}
+
+
+#slider{width:1024px; height:400px; margin:0 auto; background:#FFF; padding-bottom:50px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fix{clear:both; overflow:hidden; width:0;}
+
+
+#contenido{width:1024px; height:900px; margin:0 auto; background:#FFF }
+
+#principal{widht:1024px; height:60%; margin:0 auto; background:url(../img/back3.jpg) no-repeat; background-position:center;   }
+
+#titulo{font-family:Arial, Helvetica, sans-serif; font-size:54px;color:#FF3300;padding-left:40px; padding-top:30px;}
+
+
+
+
+
+
+
+
+#secundario{clear:both; overflow:hidden;}
+#secundario{widht:1024px; height:40%; margin:0 auto; background:#E8D18D}
+
+.circulo {float:left; height:100%; width:25%;  }
+.circulo h4{font-family:Arial, Helvetica, sans-serif; font-size:24px;color:#FF0000;padding-left:10px; padding-top:20px;}
+.circulo img{ padding-left:10px; border-radius:50%;padding-top:20px;}
+.circulo a{display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px;color:#000000;  padding-left:10px; border-radius:10%;padding-top:20px; text-align:right; text-decoration:none;}
+.circulo a:hover{filter:alpha(opacity=66);-moz-opacity:.66;opacity:.66;background:#FF9966; color:#FFFFFF}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{width:100%; height:150px; }
+
+#a{width:100%; height:60%; background:}
+#a ul{list-style:none; padding-right:20px; padding-top:20px; float:right;}
+#a ul li{float:right; }
+#a ul li a{display:block; line-height:38px;padding-left:15px; padding-right:15px; padding-bottom:10px; padding-top:15px; border-radius:10%;}
+#a ul li a:hover{ filter:alpha(opacity=66);-moz-opacity:.66;opacity:.66;background:#FF9966}
+#a ul li: first-child {border-right:none;}
+
+#b{clear:both; overflow:hidden;}
+#b{width:1024px; height:40px; background:; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; padding-top:10px;}
+#c{width:50%; float:left; text-align:left; padding-left:50px;}
+
+#by{ float:left; text-align:right; padding-left:200px; padding-bottom:20px;}
+
+
+
+
+
+
+#contenidocontacto{width:900px; height:250px; margin:0 auto; background:#FFF;text-align:center; padding-left:20px }
+
+#contacto{width:400px; height:200px; margin:0 auto; background:#FFF; text-align:center; padding-top:50px; padding-left:100px;}
+
+#contenidolocalidades{width:1000px; height:600px; margin:0 auto; background:#E8D18D;text-align:center;  }
+#contenidolocalidades img{text-align:center; padding-top:30px; }
+
+
+#contenidoaliados{width:900px; height:auto; margin:0 auto; background:#E8D18D;text-align:center;  }
+.aliado{ width:90%; padding-left:10px; height: 90px; }
+.aliado h4{font-family:Arial, Helvetica, sans-serif; font-size:24px;color:#FF0000; padding-top:20px;  }
+.aliado a{display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px;color:#000000;   border-radius:10%;padding-top:20px; text-align:right; text-decoration:none;  }
+.aliado a:hover{ filter:alpha(opacity=66);-moz-opacity:.66;opacity:.66;background:#FF9966; color:#CC0000}
